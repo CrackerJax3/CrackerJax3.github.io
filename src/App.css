@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.LogoContainer {
+  flex: 1; /* Take up remaining space */
+  text-align:left; /* Center the logo */
+}
+
+.Logo {
+  height: 70px; /* Adjust the height as needed */
+
+}
+
