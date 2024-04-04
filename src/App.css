@@ -2,22 +2,128 @@
   text-align: center;
 }
 
-.Header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #000000;
-  color: #fff;
-}
-
-.LogoContainer {
-  flex: 1; /* Take up remaining space */
-  text-align:left; /* Center the logo */
-}
-
 .Logo {
-  height: 70px; /* Adjust the height as needed */
+  height: 70px;
+  /* Adjust the height as needed */
 
 }
 
+/* Default styles for all screen sizes */
+/* Define styles for desktop devices */
+@media (min-width: 768px) {
+  /* Styles for desktop devices */
+
+  .LogoContainer {
+    flex: 1;
+    /* Take up remaining space */
+    text-align: left;
+    /* Center the logo */
+  }
+
+  /* .navbar {
+    display: flex;
+    /* Display the navbar 
+  } */
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+  }
+
+  .header-options {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .header-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .Footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
+
+/* Define styles for mobile devices */
+@media (max-width: 767px) {
+
+  /* Styles for mobile devices */
+  
+  h1 {
+    font-size: 3vw;
+  }
+  
+  p {
+    font-size: 3vw;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .LogoContainer {
+    flex: 1; /* Use flex to expand and center the logo */
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+  }
+
+  /* .navbar {
+    display: none;
+    /* Hide the navbar 
+  } */
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+  }
+
+
+  .Footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-top: 10px;
+  }
+
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
