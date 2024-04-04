@@ -5,9 +5,221 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
+h1, p{
+  text-align:justify;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .transparent-text-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (4th parameter) for transparency 
+  color: white;
+  font-family: Verdana, sans-serif;
+  padding: 10px;
+} */
+
+.Section1 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+
+}
+.Section1 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section1 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section2 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+
+}
+.Section2 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section2 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section3 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+
+}
+.Section3 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section3 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section4 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+
+}
+.Section4 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section4 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section5 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+}
+.Section5 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section5 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section6 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+}
+.Section6 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section6 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section7 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+}
+.Section7 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section7 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+
+.Section8 {
+  position: relative;
+  margin: 0 auto; 
+  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  overflow: hidden;
+
+}
+.Section8 img{
+  width: 100%; /* Make the image responsive and fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper rendering */
+}
+.Section8 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 

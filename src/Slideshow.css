@@ -16,18 +16,5 @@
     animation: slide 10s ease infinite; /* Change slide duration as needed */
   }
   
-  @keyframes slide {
-    0% {
-      opacity: 0;
-    }
-    25% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+ 
   

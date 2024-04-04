@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Slideshow.css'; // Import your CSS file for styling
-import image1 from './images/1.jpg';
+import image1 from './images/5.jpg';
 import image2 from './images/2.jpg';
 import image3 from './images/3.jpg';
 
