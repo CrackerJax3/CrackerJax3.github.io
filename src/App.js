@@ -46,7 +46,7 @@ function App() {
           <img src={mission} />
           <div class="content">
             <h1>MAKER SPACE EXPLORATION</h1>
-            <p>21st Century Skill-stacks for Everyone</p>
+            <p>21st Century Skill-Stacks for Everyone</p>
           </div>
         </div>
         <div className="Section2">
