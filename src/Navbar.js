@@ -12,6 +12,13 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Use smooth behavior for smooth scrolling
+        });
+      };
+
     return (
         <nav className="navbar">
             {/* Navbar for Desktop */}
@@ -23,7 +30,7 @@ function Navbar() {
                         <img src={logo} alt="Logo" className="Logo" />
                     </div>
                     <div className="menudesk">
-                        <li><a href="#">Home</a></li>
+                        <li><a onClick={scrollToTop}>Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Contact</a></li>
