@@ -298,22 +298,6 @@ code {
   height: auto; /* Maintain aspect ratio */
   display: block; /* Ensure proper rendering */
 }
-<<<<<<< HEAD
-
-=======
-.Section6 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  align-items: center;
-  padding: 30px;
-} 
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
 
 .Section7 {
   position: relative;
