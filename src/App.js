@@ -28,13 +28,7 @@ function App() {
         <link rel="icon" type="image/png" href="/favicon.ico" sizes="16x16" />
       </Helmet>
 
-      <header className="header">
-
-        <div className="LogoContainer">
-          <img src={logo} alt="Logo" className="Logo" />
-        </div>
-        <Navbar />
-      </header>
+      <Navbar />
       <body>
         <div className="Section1">
           <img src={mission} />
