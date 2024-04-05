@@ -33,7 +33,6 @@ function App() {
   const [num1, setNum1] = React.useState(27000);
   const [num2, setNum2] = React.useState(4000);
   const [num3, setNum3] = React.useState(220);
-
   return (
     <div className="App">
       <Helmet>
@@ -42,13 +41,7 @@ function App() {
         <meta name="description" content="21st Century Skill-Stacks for Everyone" />
         <link rel="icon" type="image/png" href="/favicon.ico" sizes="16x16" />
       </Helmet>
-
-      <header className="header">
-        <div className="LogoContainer">
-          <img src={logo} alt="Logo" className="Logo" />
-        </div>
-      </header>
-
+      <Navbar />
       <body>
         <div className="Section1">
           <img src={mission} />
