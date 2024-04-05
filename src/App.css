@@ -8,6 +8,7 @@
 
 }
 
+
 /* Default styles for all screen sizes */
 /* Define styles for desktop devices */
 @media (min-width: 768px) {
@@ -18,18 +19,23 @@
     /* Take up remaining space */
     text-align: left;
     /* Center the logo */
-  }
-
-  /* .navbar {
+    position: absolute;
+    top: 0;/* Align menu to the top */
+    left: 0; /* Align menu to the right */
+    padding-top: .5vw;
+    padding-left: .5vw;
     display: flex;
-    /* Display the navbar 
-  } */
+    align-items: center;
+    list-style-type: none;
+    margin: 0;/* Reset margin */
+  }
 
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    height: 5vw;
     background-color: #000000;
     color: white;
   }
@@ -94,11 +100,20 @@
     justify-content: center; /* Center the logo horizontally */
     align-items: center; /* Center the logo vertically */
   }
+  
+  .header-button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
-  /* .navbar {
-    display: none;
-    /* Hide the navbar 
-  } */
+  .header-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
   .header {
     display: flex;
