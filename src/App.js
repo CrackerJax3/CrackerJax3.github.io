@@ -8,7 +8,6 @@ import Sidebar from './Sidebar'; // Import the Sidebar component
 import Navbar from './Navbar.js';
 import { Helmet } from 'react-helmet';
 import AnimatedNumbers from "react-animated-numbers";
-
 import image1 from './images/5.jpg';
 import image2 from './images/2.jpg';
 import image3 from './images/3.jpg';
@@ -16,14 +15,25 @@ import mission from './images/mission.jpeg';
 import community from './images/community.png';
 import campaign from './images/consulting.png'
 import hosting from './images/hosting.png'
+import sub from './images/Subotix.png'
+import misk from './images/misk-logo-black.webp'
+import turki from './images/alturki.png'
+import brightup from './images/brightup.png'
+import aramco from './images/aramco.png'
+import sipchem from './images/sipchem.png'
+import ithra from './images/ithra.png'
+import sabic from './images/sabic.png'
+import mcit from './images/mcit.png'
+import makerfaire from './images/makerfaire.png'
+import numou from './images/numou.png'
+import rcu from './images/rcu.png'
 
 
 function App() {
-  const [num1, setNum1] = React.useState(331231);
-  const [num2, setNum2] = React.useState(331231);
-  const [num3, setNum3] = React.useState(331231);
+  const [num1, setNum1] = React.useState(27000);
+  const [num2, setNum2] = React.useState(4000);
+  const [num3, setNum3] = React.useState(220);
   return (
-
     <div className="App">
       <Helmet>
         <title>MSX</title>
@@ -31,9 +41,7 @@ function App() {
         <meta name="description" content="21st Century Skill-Stacks for Everyone" />
         <link rel="icon" type="image/png" href="/favicon.ico" sizes="16x16" />
       </Helmet>
-
       <header className="header">
-
         <div className="LogoContainer">
           <img src={logo} alt="Logo" className="Logo" />
         </div>
@@ -52,21 +60,18 @@ function App() {
           <section class="services">
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-code"></i></div>
                 <div class="title">INITIATIVES</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-mobile"></i></div>
                 <div class="title">CONSULTING</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-paint-brush"></i></div>
                 <div class="title">COMMUNITY</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
@@ -75,21 +80,18 @@ function App() {
           <section class="services">
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-laptop"></i></div>
                 <div class="title">HOSTING</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-line-chart"></i></div>
                 <div class="title">CAMPAIGNS </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
-                <div class="icon"><i class="fa fa-wordpress"></i></div>
                 <div class="title">PRODUCTS</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
@@ -119,7 +121,7 @@ function App() {
         </div>
         <div className="Section6">
           <div class="content">
-            <h1>NUMBERS</h1>
+
             <section class="services">
               <div class="card">
                 <div class="content">
@@ -135,9 +137,9 @@ function App() {
                     animateToNumber={num1}
                     fontStyle={{
                       fontSize: 40,
-                      color: "red",
-                      fontWeight: "bold", // Set font weight to bold
-                      textAlign: "center", // Center align the numbers
+                      color: "white",
+                      fontWeight: "bold",
+                      textAlign: "center",
                     }}
                   />
                 </div>
@@ -145,7 +147,7 @@ function App() {
               <div class="card">
                 <div class="content">
                   <div class="icon"><i class="fa fa-mobile"></i></div>
-                  <div class="title">CONSULTING</div>
+                  <div class="title">EVENTS</div>
                   <AnimatedNumbers
                     includeComma
                     className="services"
@@ -156,9 +158,9 @@ function App() {
                     animateToNumber={num2}
                     fontStyle={{
                       fontSize: 40,
-                      color: "red",
-                      fontWeight: "bold", // Set font weight to bold
-                      textAlign: "center", // Center align the numbers
+                      color: "white",
+                      fontWeight: "bold",
+                      textAlign: "center",
                     }}
                   />
                 </div>
@@ -173,14 +175,13 @@ function App() {
                     transitions={(index) => ({
                       type: "spring",
                       duration: index + 0.3,
-                      
                     })}
                     animateToNumber={num3}
                     fontStyle={{
                       fontSize: 40,
-                      color: "red",
-                      fontWeight: "bold", // Set font weight to bold
-                      textAlign: "center", // Center align the numbers
+                      color: "white",
+                      fontWeight: "bold", 
+                      textAlign: "center", 
                     }}
                   />
                 </div>
@@ -195,15 +196,33 @@ function App() {
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
+        <div className="Section7">
+          <img src={image3} />
+          <div class="content">
+            <h1>LOCATIONS</h1>
+            <p>MEXICO, ITALY, SAUDI ARABIA</p>
+          </div>
+        </div>
         <div className="Section8">
-          <img src={image2} />
           <div class="content">
             <h1>PARTNERS</h1>
-            <p>Purpose driven community engagements at scale.</p>
+            <div class="partners-container">
+              <img src={mcit} alt="mcit" />
+              <img src={rcu} alt="rcu" />
+              <img src={aramco} alt="aramco" />
+              <img src={misk} alt="misk" />
+              <img src={numou} alt="numou" />
+              <img src={sabic} alt="sabic" />
+              <img src={brightup} alt="brightup" />
+              <img src={ithra} alt="ithra" />
+              <img src={turki} alt="turki" />
+              <img src={makerfaire} alt="MakerFaire" />
+              <img src={sipchem} alt="sipchem" />
+              <img src={sub} alt="Subotix" />
+            </div>
           </div>
         </div>
       </body>
-      {/* Add the rest of your website content here */}
       <footer className="Footer">
         <div className="copyright">
           &copy; 2024 Maker Space Exploration
