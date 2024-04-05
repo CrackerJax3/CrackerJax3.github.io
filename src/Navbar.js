@@ -12,11 +12,14 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
-    const scrollToTop = () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth" // Use smooth behavior for smooth scrolling
-        });
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          window.scrollTo({
+            top: section.offsetTop,
+            behavior: 'smooth'
+          });
+        }
       };
 
     return (
@@ -30,10 +33,10 @@ function Navbar() {
                         <img src={logo} alt="Logo" className="Logo" />
                     </div>
                     <div className="menudesk">
-                        <li><a onClick={scrollToTop}>Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a onClick={() => scrollToSection('home')}>Home</a></li>
+                        <li><a onClick={() => scrollToSection('about')}>About</a></li>
+                        <li><a onClick={() => scrollToSection('services')}>Services</a></li>
+                        <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
                     </div>
                 </header>
             </ul>
@@ -50,10 +53,10 @@ function Navbar() {
                 </button>
                 {isOpen && (
                     <ul className="dropdown-menu">
-                        <li><a onClick={scrollToTop}>Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a onClick={() => scrollToSection('home')}>Home</a></li>
+                        <li><a onClick={() => scrollToSection('about')}>About</a></li>
+                        <li><a onClick={() => scrollToSection('services')}>Services</a></li>
+                        <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
                     </ul>
                 )}
             </div>

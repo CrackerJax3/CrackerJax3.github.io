@@ -34,14 +34,14 @@ function App() {
 
       <Navbar />
       <body>
-        <div className="Section1">
+        <div id="home" className="Section1">
           <img src={mission} />
           <div class="content">
             <h1>MAKER SPACE EXPLORATION</h1>
             <p>21st Century Skill-Stacks for Everyone</p>
           </div>
         </div>
-        <div className="Section5">
+        <div id="services" className="Section5">
           <h1>OUR SERVICES</h1>
           <section class="services">
             <div class="card">
@@ -90,7 +90,7 @@ function App() {
             </div>
           </section>
         </div>
-        <div className="Section2">
+        <div id="about" className="Section2">
           <img src={community} />
           <div class="content">
             <h1>COMMUNITY EVENTS</h1>
@@ -202,7 +202,7 @@ function App() {
         <div className="copyright">
           &copy; 2024 Maker Space Exploration
         </div>
-        <div className="social-media">
+        <div id="contact" className="social-media">
           {/* Add your social media links here */}
           <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
           <a href="https://twitter.com/MSXBocaChica">X</a>
