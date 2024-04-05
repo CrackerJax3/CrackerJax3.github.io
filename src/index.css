@@ -218,6 +218,7 @@ code {
   margin: 0 auto; 
   max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
   overflow: hidden;
+<<<<<<< HEAD
   color:black; 
   background-color: #f1f1f1;
 }
@@ -293,12 +294,30 @@ code {
 }
 
 
+=======
+}
+>>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
 .Section6 img{
   width: 100%; /* Make the image responsive and fill the container width */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Ensure proper rendering */
 }
+<<<<<<< HEAD
 
+=======
+.Section6 .content {
+  bottom: 0;  
+  background: rgb(0, 0, 0);  
+  background-color: rgba(0, 0, 0, 0.5);   
+  color: #f1f1f1; 
+  width: 100%; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 30px;
+} 
+>>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
 
 .Section7 {
   position: relative;
@@ -347,4 +366,8 @@ code {
   left: 0;
   align-items: center;
   padding: 30px;
+<<<<<<< HEAD
 } 
+=======
+} 
+>>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
