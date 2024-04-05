@@ -218,7 +218,6 @@ code {
   margin: 0 auto; 
   max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
   overflow: hidden;
-<<<<<<< HEAD
   color:black; 
   background-color: #f1f1f1;
 }
@@ -294,9 +293,6 @@ code {
 }
 
 
-=======
-}
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
 .Section6 img{
   width: 100%; /* Make the image responsive and fill the container width */
   height: auto; /* Maintain aspect ratio */
