@@ -7,10 +7,7 @@ import logo from './msxbigwhitetransparent.png'; // Import your logo image file
 import Sidebar from './Sidebar'; // Import the Sidebar component
 import Navbar from './Navbar.js';
 import { Helmet } from 'react-helmet';
-<<<<<<< HEAD
 import AnimatedNumbers from "react-animated-numbers";
-=======
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
 
 import image1 from './images/5.jpg';
 import image2 from './images/2.jpg';
@@ -22,12 +19,9 @@ import hosting from './images/hosting.png'
 
 
 function App() {
-<<<<<<< HEAD
   const [num1, setNum1] = React.useState(331231);
   const [num2, setNum2] = React.useState(331231);
   const [num3, setNum3] = React.useState(331231);
-=======
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
   return (
 
     <div className="App">
@@ -71,13 +65,8 @@ function App() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
               </div>
             </div>
-<<<<<<< HEAD
           </section>
           <section class="services">
-=======
-            </section>
-            <section class="services">
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
             <div class="card">
               <div class="content">
                 <div class="icon"><i class="fa fa-laptop"></i></div>
@@ -101,10 +90,6 @@ function App() {
             </div>
           </section>
         </div>
-<<<<<<< HEAD
-=======
-        
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
         <div className="Section2">
           <img src={community} />
           <div class="content">
@@ -127,7 +112,6 @@ function App() {
           </div>
         </div>
         <div className="Section6">
-<<<<<<< HEAD
           <div class="content">
             <h1>NUMBERS</h1>
             <section class="services">
@@ -196,12 +180,6 @@ function App() {
                 </div>
               </div>
             </section>
-=======
-          <img src={image2} />
-          <div class="content">
-            <h1>LOCATIONS</h1>
-            <p>Purpose driven community engagements at scale.</p>
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
           </div>
         </div>
         <div className="Section7">
@@ -218,10 +196,6 @@ function App() {
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> aee960ba7e8d6c8cb0f89de0f2e9d4cfe3bfb3eb
       </body>
       {/* Add the rest of your website content here */}
       <footer className="Footer">
