@@ -56,6 +56,7 @@ code {
   padding: 30px;
 } 
 
+
 .Section2 {
   position: relative;
   margin: 0 auto; 
@@ -136,24 +137,81 @@ code {
   margin: 0 auto; 
   max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
   overflow: hidden;
+  color:black; 
+  background-color: #f1f1f1;
 }
-.Section5 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+.Section5 .h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
 }
-.Section5 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.Section5 .services{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 30px;
-} 
+  color: black; 
+
+}
+.Section5 p{
+  color: black; 
+}
+.Section5 h1{
+  text-align:center
+}
+.Section5 .services .card{
+  width: 330px;
+  height: 200px;
+  text-align: center;
+  background: white;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow:10px 10px;
+  
+}
+
+.Section5 .services .card .content{
+  transition: 0.3s;
+  margin: 20px;
+
+}
+
+.Section5 .services .card:hover{
+  background: grey;
+}
+
+.Section5 .services .card:hover .content{
+  transform: scale(1.07);
+}
+
+.Section5 .services .card .content .icon{
+  padding: 5px 0;
+  color: white;
+}
+
+.Section5 .services .card .content .icon i{
+  font-size: 40px;
+}
+
+.Section5 .services .card:hover .content .title{
+  color: white;
+}
+
+.Section5 .services .card .content .title{
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(36, 36, 36);
+  transition: 0.3s;
+}
+
 
 .Section6 {
   position: relative;

@@ -13,7 +13,7 @@ import image2 from './images/2.jpg';
 import image3 from './images/3.jpg';
 import mission from './images/mission.jpeg';
 import community from './images/community.png';
-import consulting from './images/consulting.png'
+import campaign from './images/consulting.png'
 import hosting from './images/hosting.png'
 
 
@@ -43,6 +43,56 @@ function App() {
             <p>21st Century Skill-Stacks for Everyone</p>
           </div>
         </div>
+        <div className="Section5">
+          <h1>OUR SERVICES</h1>
+          <section class="services">
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-code"></i></div>
+                <div class="title">INITIATIVES</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-mobile"></i></div>
+                <div class="title">CONSULTING</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                <div class="title">COMMUNITY</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+            </section>
+            <section class="services">
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-laptop"></i></div>
+                <div class="title">HOSTING</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-line-chart"></i></div>
+                <div class="title">CAMPAIGNS </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="icon"><i class="fa fa-wordpress"></i></div>
+                <div class="title">PRODUCTS</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        
         <div className="Section2">
           <img src={community} />
           <div class="content">
@@ -51,9 +101,9 @@ function App() {
           </div>
         </div>
         <div className="Section3">
-          <img src={consulting} />
+          <img src={campaign} />
           <div class="content">
-            <h1>CONSULTING</h1>
+            <h1>CAMPAIGNS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
@@ -61,13 +111,6 @@ function App() {
           <img src={hosting} />
           <div class="content">
             <h1>HOSTING TO INSPIRE</h1>
-            <p>Purpose driven community engagements at scale.</p>
-          </div>
-        </div>
-        <div className="Section5">
-          <img src={image2} />
-          <div class="content">
-            <h1>SERVICES</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
