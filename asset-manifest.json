@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.24058cff.css",
-    "main.js": "/static/js/main.93fd5e7d.js",
+    "main.css": "/static/css/main.ea45316c.css",
+    "main.js": "/static/js/main.d5bc552f.js",
     "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
     "static/media/hosting.png": "/static/media/hosting.00e0b2bbc0146a8db563.png",
     "static/media/consulting.png": "/static/media/consulting.dc080103922cca9155bf.png",
@@ -9,15 +9,26 @@
     "static/media/msxbigwhitetransparent.png": "/static/media/msxbigwhitetransparent.7e40a149b92a755867f7.png",
     "static/media/mission.jpeg": "/static/media/mission.f30783c4e6db7f9369b7.jpeg",
     "static/media/5.jpg": "/static/media/5.2e46bfc36a58c580aa49.jpg",
+    "static/media/numou.png": "/static/media/numou.02e2a95428617902c7ac.png",
+    "static/media/sabic.png": "/static/media/sabic.ac4f10a4b40ca66fff26.png",
     "static/media/3.jpg": "/static/media/3.2d2dae0682ac35b92242.jpg",
     "static/media/2.jpg": "/static/media/2.7bd187fa9804de2af6fe.jpg",
+    "static/media/makerfaire.png": "/static/media/makerfaire.176912915453f49a850c.png",
+    "static/media/aramco.png": "/static/media/aramco.dd90a3ba26523691cd5a.png",
+    "static/media/sipchem.png": "/static/media/sipchem.171fe05b68968533549f.png",
+    "static/media/mcit.png": "/static/media/mcit.763dc2c37d72250cf7a4.png",
+    "static/media/rcu.png": "/static/media/rcu.7c0b9c4007a951115389.png",
+    "static/media/brightup.png": "/static/media/brightup.0e74d8a152644e166868.png",
+    "static/media/ithra.png": "/static/media/ithra.61f3dadd199f471ad97f.png",
+    "static/media/Subotix.png": "/static/media/Subotix.2a89ab1e628197262d91.png",
+    "static/media/misk-logo-black.webp": "/static/media/misk-logo-black.3cb4e0e79eb23a11478a.webp",
     "index.html": "/index.html",
-    "main.24058cff.css.map": "/static/css/main.24058cff.css.map",
-    "main.93fd5e7d.js.map": "/static/js/main.93fd5e7d.js.map",
+    "main.ea45316c.css.map": "/static/css/main.ea45316c.css.map",
+    "main.d5bc552f.js.map": "/static/js/main.d5bc552f.js.map",
     "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24058cff.css",
-    "static/js/main.93fd5e7d.js"
+    "static/css/main.ea45316c.css",
+    "static/js/main.d5bc552f.js"
   ]
 }
