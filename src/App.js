@@ -47,7 +47,6 @@ function App() {
         <div className="LogoContainer">
           <img src={logo} alt="Logo" className="Logo" />
         </div>
-        <Navbar />
       </header>
 
       <body>
