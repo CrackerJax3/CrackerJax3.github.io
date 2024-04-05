@@ -21,27 +21,17 @@ code {
     monospace;
 }
 
-/* .transparent-text-box {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (4th parameter) for transparency 
-  color: white;
-  font-family: Verdana, sans-serif;
-  padding: 10px;
-} */
-
 .Section1 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
 
 }
 .Section1 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 .Section1 .content {
   bottom: 0;  
@@ -50,24 +40,22 @@ code {
   color: #f1f1f1; 
   width: 100%; 
   position: absolute;
-  bottom: 0;
-  left: 0;
   align-items: center;
-  padding: 30px;
+  padding: 3vw;
 } 
 
 
 .Section2 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
 
 }
 .Section2 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto;
+  display: block; 
 }
 .Section2 .content {
   bottom: 0;  
@@ -79,20 +67,20 @@ code {
   bottom: 0;
   left: 0;
   align-items: center;
-  padding: 30px;
+  padding: 3vw;
 } 
 
 .Section3 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%;
   overflow: hidden;
 
 }
 .Section3 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto;
+  display: block; 
 }
 .Section3 .content {
   bottom: 0;  
@@ -104,20 +92,20 @@ code {
   bottom: 0;
   left: 0;
   align-items: center;
-  padding: 30px;
+  padding: 3vw;
 } 
 
 .Section4 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
 
 }
 .Section4 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 .Section4 .content {
   bottom: 0;  
@@ -129,24 +117,29 @@ code {
   bottom: 0;
   left: 0;
   align-items: center;
-  padding: 30px;
+  padding: 3vw;
 } 
 
 .Section5 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
   color:black; 
   background-color: #f1f1f1;
+  overflow: hidden;
+  max-width: 100%;
 }
-.Section5 .h2{
+.Section5 h2{
   text-align: center;
   text-transform: uppercase;
-  font-size: 35px;
-  margin-bottom: 25px;
+  font-size:larger;
+  margin-bottom: 2.5 vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
+  overflow: hidden;
+  max-width: 100%;
+  
 }
 .Section5 .services{
   justify-content: space-around;
@@ -154,32 +147,48 @@ code {
   flex-wrap: wrap;
   align-items: center;
   color: black; 
+  max-width: 100%; 
+  overflow: hidden;
 
 }
-.Section5 p{
-  color: black; 
+.Section5 .services .card .content p{
+  white-space: nowrap;
+  justify-content: space-around;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Section5 .services .card:hover .content p{
+  font-size:x-small;
+  word-wrap: break-word;
+  text-overflow: ellipsis; 
+  transition: 0.3s;
+  max-width: 90%; 
+  margin: 0 auto;
+  white-space: normal;
+
 }
 .Section5 h1{
-  text-align:center
+  text-align:center;
 }
 .Section5 .services .card{
-  width: 330px;
-  height: 200px;
+  width: 22vw;
+  height: 13vw;
   text-align: center;
   background: white;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 0px;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   cursor: pointer;
   transition: 0.3s;
   box-shadow:10px 10px;
+  overflow:hidden;
+  max-width: 100%;
   
 }
 
 .Section5 .services .card .content{
   transition: 0.3s;
-  margin: 20px;
+  margin: 2VW;
 
 }
 
@@ -191,22 +200,14 @@ code {
   transform: scale(1.07);
 }
 
-.Section5 .services .card .content .icon{
-  padding: 5px 0;
-  color: white;
-}
-
-.Section5 .services .card .content .icon i{
-  font-size: 40px;
-}
-
 .Section5 .services .card:hover .content .title{
-  color: white;
+  color: #f1f1f1;
+  font-size: medium;
 }
 
 .Section5 .services .card .content .title{
   padding: 5px 0;
-  font-size: 24px;
+  font-size: 2.5vw;
   font-weight: 500;
   color: rgb(36, 36, 36);
   transition: 0.3s;
@@ -216,45 +217,44 @@ code {
 .Section6 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%;
   overflow: hidden;
-  color:black; 
-  background-color: #f1f1f1;
+  color:#f1f1f1; 
+  background-color: black;
 }
-.Section6 .h2{
+.Section6 h1{
   text-align: center;
   text-transform: uppercase;
-  font-size: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 2vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: black;
+  color: #f1f1f1;
 }
 .Section6 .services{
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  color: black; 
+  color: #f1f1f1; 
+  text-align: center;
+
 
 }
 .Section6 p{
-  color: black; 
-}
-.Section6 h1{
-  text-align:center
-}
-.Section6 .services .card{
-  width: 200px; /* Adjust width to create a perfect circle */
-  height: 200px; /* Make height equal to width to maintain aspect ratio */
+  color: #f1f1f1; 
   text-align: center;
-  background: white;
-  margin-bottom: 50px;
+
+}
+
+.Section6 .services .card{
+  width: 200px; 
+  height: 200px; 
+  text-align: center;
+  background: black;
   margin-left: 50px;
   margin-right: 50px;
-  border-radius: 50%; /* Set border-radius to 50% for a circle */
+  margin-top: 2vw;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 10px 10px;
 }
 
 .Section6 .services .card .content{
@@ -265,50 +265,46 @@ code {
 
 .Section6 .services .card:hover{
   background: grey;
+  margin-bottom: 2vw;
 }
 
 .Section6 .services .card:hover .content{
   transform: scale(1.07);
 }
 
-.Section6 .services .card .content .icon{
-  padding: 5px 0;
-  color: white;
-}
-
-.Section6 .services .card .content .icon i{
-  font-size: 40px;
-}
-
 .Section6 .services .card:hover .content .title{
-  color: white;
+  color: #f1f1f1;
+  text-align: center;
+
 }
 
 .Section6 .services .card .content .title{
   padding: 5px 0;
   font-size: 24px;
   font-weight: 500;
-  color: rgb(36, 36, 36);
+  color: rgb(209, 205, 205);
   transition: 0.3s;
+  text-align: center;
+
 }
 
 
 .Section6 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
 .Section7 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
 }
 .Section7 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
+  width: 100%; 
+  height: auto; 
+  display: block; 
 }
 .Section7 .content {
   bottom: 0;  
@@ -322,28 +318,38 @@ code {
   align-items: center;
   padding: 30px;
 } 
-
 .Section8 {
   position: relative;
   margin: 0 auto; 
-  max-width: 100%; /* Ensure the container doesn't exceed the width of its parent */
+  max-width: 100%; 
   overflow: hidden;
+  background-color: #f1f1f1; 
+  align-items: center;
+} 
+
+.Section8 .content {
+  align-items: center;
+  padding: 3vw;
+  margin-bottom: 5vw; 
+  background-color: #f1f1f1;  
+} 
+
+.Section8 h1 {
+  text-align:center;
+  margin-bottom: 5vw; 
+}
+
+.Section8 .partners-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5vw, 1fr));
+  gap: 2vw;
+  background-color: #f1f1f1; 
+  justify-content: center; 
+}
+.Section8 .partners-container img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: auto;
 
 }
-.Section8 img{
-  width: 100%; /* Make the image responsive and fill the container width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure proper rendering */
-}
-.Section8 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  align-items: center;
-  padding: 30px;
-} 
