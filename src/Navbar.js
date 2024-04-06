@@ -12,15 +12,24 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
 
-    const scrollToSection = (sectionId) => {
+    const scrollToSection = (sectionId, scrollType) => {
         const section = document.getElementById(sectionId);
+        const navbarHeight = document.querySelector('.navbar').offsetHeight;
         if (section) {
-          window.scrollTo({
-            top: section.offsetTop,
-            behavior: 'smooth'
-          });
+            let offsetTop;
+            if (scrollType === 'top') {
+              offsetTop = section.offsetTop - navbarHeight;
+            } else {
+              const windowHeight = window.innerHeight;
+              const sectionHeight = section.offsetHeight;
+              offsetTop = section.offsetTop + sectionHeight - windowHeight;
+            }
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
         }
-      };
+    };
 
     return (
         <nav className="navbar">
@@ -33,10 +42,14 @@ function Navbar() {
                         <img src={logo} alt="Logo" className="Logo" />
                     </div>
                     <div className="menudesk">
-                        <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-                        <li><a onClick={() => scrollToSection('about')}>About</a></li>
-                        <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-                        <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+                        <li><a onClick={() => scrollToSection('home', 'bottom')}>Home</a></li>
+                        <li><a onClick={() => scrollToSection('services', 'top')}>Services</a></li>
+                        <li><a onClick={() => scrollToSection('community events', 'bottom')}>Community Events</a></li>
+                        <li><a onClick={() => scrollToSection('campaigns', 'bottom')}>Campaigns</a></li>
+                        <li><a onClick={() => scrollToSection('hosting to inspire', 'bottom')}>Hosting To Inspire</a></li>
+                        <li><a onClick={() => scrollToSection('products', 'bottom')}>Products</a></li>
+                        <li><a onClick={() => scrollToSection('locations', 'bottom')}>Locations</a></li>
+                        <li><a onClick={() => scrollToSection('contact', 'bottom')}>Collaborations</a></li>
                     </div>
                 </header>
             </ul>
@@ -54,9 +67,13 @@ function Navbar() {
                 {isOpen && (
                     <ul className="dropdown-menu">
                         <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-                        <li><a onClick={() => scrollToSection('about')}>About</a></li>
                         <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-                        <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
+                        <li><a onClick={() => scrollToSection('community events')}>Community Events</a></li>
+                        <li><a onClick={() => scrollToSection('campaigns')}>Campaigns</a></li>
+                        <li><a onClick={() => scrollToSection('hosting to inspire')}>Hosting To Inspire</a></li>
+                        <li><a onClick={() => scrollToSection('products')}>Products</a></li>
+                        <li><a onClick={() => scrollToSection('locations')}>Locations</a></li>
+                        <li><a onClick={() => scrollToSection('contact')}>Collaborations</a></li>
                     </ul>
                 )}
             </div>

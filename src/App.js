@@ -93,28 +93,28 @@ function App() {
             </div>
           </section>
         </div>
-        <div id="about" className="Section2">
+        <div id="community events" className="Section2">
           <img src={community} />
           <div class="content">
             <h1>COMMUNITY EVENTS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section3">
+        <div id="campaigns" className="Section3">
           <img src={campaign} />
           <div class="content">
             <h1>CAMPAIGNS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section4">
+        <div id="hosting to inspire" className="Section4">
           <img src={hosting} />
           <div class="content">
             <h1>HOSTING TO INSPIRE</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section6">
+        <div id="" className="Section6">
           <div class="content">
 
             <section class="services">
@@ -184,14 +184,14 @@ function App() {
             </section>
           </div>
         </div>
-        <div className="Section7">
+        <div id="products" className="Section7">
           <img src={image2} />
           <div class="content">
             <h1>PRODUCTS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section7">
+        <div id="locations" className="Section7">
           <img src={image3} />
           <div class="content">
             <h1>LOCATIONS</h1>
