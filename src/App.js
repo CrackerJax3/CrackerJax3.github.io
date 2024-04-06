@@ -48,19 +48,19 @@ function App() {
       <Helmet>
         <title>MSX</title>
         <link rel="canonical" href="http://msxbocachica.org" />
-        <meta name="description" content="21st Century Skill-Stacks for Everyone" />
+        <meta name="MSX Boca Chica or MakerSpace X" content="21st Century Skill-Stacks for Everyone. We are a 501(c)(3) non-profit organization in Brownsville, TX." />
         <link rel="icon" type="image/png" href="/favicon.ico" sizes="16x16" />
       </Helmet>
       <Navbar />
       <body>
-        <div className="Section1">
+        <div id="home" className="Section1">
           <img src={mission} />
           <div class="content">
             <h1>MAKER SPACE EXPLORATION</h1>
             <p>21st Century Skill-Stacks for Everyone</p>
           </div>
         </div>
-        <div className="Section5">
+        <div id="services" className="Section5">
           <h1>OUR SERVICES</h1>
           <section class="services">
             <div class="card">
@@ -103,28 +103,28 @@ function App() {
             </div>
           </section>
         </div>
-        <div className="Section2">
+        <div id="community events" className="Section2">
           <img src={community} />
           <div class="content">
             <h1>COMMUNITY EVENTS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section3">
+        <div id="campaigns" className="Section3">
           <img src={campaign} />
           <div class="content">
             <h1>CAMPAIGNS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section4">
+        <div id="hosting to inspire" className="Section4">
           <img src={hosting} />
           <div class="content">
             <h1>HOSTING TO INSPIRE</h1>
             <p>Hosting students, educators, and individual STEM enthusiast from around the world to inspire and prepare them for the future, through exposure to Maker Culture.</p>
           </div>
         </div>
-        <div className="Section6">
+        <div id="" className="Section6">
           <div class="content">
             <section class="services">
               <div class="card">
@@ -395,9 +395,11 @@ function App() {
           &copy; 2024 Maker Space Exploration
         </div>
         <div className="social-media">
+
           <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
           <a href="https://twitter.com/MSXBocaChica">X</a>
           <a href="https://www.youtube.com/@subasio/">Youtube</a>
+          <a href="mailto:msx.bocachica@gmail.com">msx.bocachica@gmail.com</a>
         </div>
       </footer>
     </div>
