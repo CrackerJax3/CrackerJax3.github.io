@@ -10,12 +10,13 @@ body {
 }
 
 h1 {
-  text-align:left;
+  text-align: left;
 }
 
 p {
-  text-align:justify;
+  text-align: justify;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -23,154 +24,168 @@ code {
 
 .Section1 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
+  margin: 0 auto;
+  max-width: 100%;
   overflow: hidden;
 
 }
-.Section1 img{
-  width: 100%; 
-  height: auto; 
-  display: block; 
+
+.Section1 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
+
 .Section1 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
   position: absolute;
   align-items: center;
   padding: 3vw;
-} 
+}
 
 
 .Section2 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
-  overflow: hidden;
-
-}
-.Section2 img{
-  width: 100%; 
-  height: auto;
-  display: block; 
-}
-.Section2 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  align-items: center;
-  padding: 3vw;
-} 
-
-.Section3 {
-  position: relative;
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
 
 }
-.Section3 img{
-  width: 100%; 
+
+.Section2 img {
+  width: 100%;
   height: auto;
-  display: block; 
+  display: block;
 }
-.Section3 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
+
+.Section2 .content {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   align-items: center;
   padding: 3vw;
-} 
+}
+
+.Section3 {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+
+}
+
+.Section3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Section3 .content {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 3vw;
+}
 
 .Section4 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
+  margin: 0 auto;
+  max-width: 100%;
   overflow: hidden;
 
 }
-.Section4 img{
-  width: 100%; 
-  height: auto; 
-  display: block; 
+
+.Section4 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
+
 .Section4 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   align-items: center;
   padding: 3vw;
-} 
+}
 
 .Section5 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
+  margin: 0 auto;
+  max-width: 100%;
   overflow: hidden;
-  color:black; 
+  color: black;
   background-color: #f1f1f1;
   overflow: hidden;
   max-width: 100%;
 }
-.Section5 h2{
+
+.Section5 h2 {
   text-align: center;
   text-transform: uppercase;
-  font-size:larger;
+  font-size: larger;
   margin-bottom: 2.5 vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
   overflow: hidden;
   max-width: 100%;
-  
+
 }
-.Section5 .services{
+
+.Section5 .services {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  color: black; 
-  max-width: 100%; 
+  color: black;
+  max-width: 100%;
   overflow: hidden;
 
 }
-.Section5 .services .card .content p{
+
+.Section5 .services .card .content p {
   white-space: nowrap;
   justify-content: space-around;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.Section5 .services .card:hover .content p{
-  font-size:x-small;
+
+.Section5 .services .card:hover .content p {
+  font-size: x-small;
   word-wrap: break-word;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   transition: 0.3s;
-  max-width: 90%; 
+  max-width: 90%;
   margin: 0 auto;
   white-space: normal;
 
 }
-.Section5 h1{
-  text-align:center;
+
+.Section5 h1 {
+  text-align: center;
 }
-.Section5 .services .card{
+
+.Section5 .services .card {
   width: 22vw;
   height: 13vw;
   text-align: center;
@@ -180,32 +195,32 @@ code {
   margin-right: 5vw;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow:10px 10px;
-  overflow:hidden;
+  box-shadow: 10px 10px;
+  overflow: hidden;
   max-width: 100%;
-  
+
 }
 
-.Section5 .services .card .content{
+.Section5 .services .card .content {
   transition: 0.3s;
   margin: 2VW;
 
 }
 
-.Section5 .services .card:hover{
+.Section5 .services .card:hover {
   background: grey;
 }
 
-.Section5 .services .card:hover .content{
+.Section5 .services .card:hover .content {
   transform: scale(1.07);
 }
 
-.Section5 .services .card:hover .content .title{
+.Section5 .services .card:hover .content .title {
   color: #f1f1f1;
   font-size: medium;
 }
 
-.Section5 .services .card .content .title{
+.Section5 .services .card .content .title {
   padding: 5px 0;
   font-size: 2.5vw;
   font-weight: 500;
@@ -216,38 +231,41 @@ code {
 
 .Section6 {
   position: relative;
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
-  color:#f1f1f1; 
+  color: #f1f1f1;
   background-color: black;
 }
-.Section6 h1{
+
+.Section6 h1 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 2vw;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #f1f1f1;
 }
-.Section6 .services{
+
+.Section6 .services {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  color: #f1f1f1; 
+  color: #f1f1f1;
   text-align: center;
 
 
 }
-.Section6 p{
-  color: #f1f1f1; 
+
+.Section6 p {
+  color: #f1f1f1;
   text-align: center;
 
 }
 
-.Section6 .services .card{
-  width: 200px; 
-  height: 200px; 
+.Section6 .services .card {
+  width: 200px;
+  height: 200px;
   text-align: center;
   background: black;
   margin-left: 50px;
@@ -257,28 +275,28 @@ code {
   transition: 0.3s;
 }
 
-.Section6 .services .card .content{
+.Section6 .services .card .content {
   transition: 0.3s;
   margin: 20px;
 
 }
 
-.Section6 .services .card:hover{
+.Section6 .services .card:hover {
   background: grey;
   margin-bottom: 2vw;
 }
 
-.Section6 .services .card:hover .content{
+.Section6 .services .card:hover .content {
   transform: scale(1.07);
 }
 
-.Section6 .services .card:hover .content .title{
+.Section6 .services .card:hover .content .title {
   color: #f1f1f1;
   text-align: center;
 
 }
 
-.Section6 .services .card .content .title{
+.Section6 .services .card .content .title {
   padding: 5px 0;
   font-size: 24px;
   font-weight: 500;
@@ -289,67 +307,314 @@ code {
 }
 
 
-.Section6 img{
-  width: 100%; 
-  height: auto; 
-  display: block; 
+.Section6 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .Section7 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
+  margin: 0 auto;
+  max-width: 100%;
   overflow: hidden;
 }
-.Section7 img{
-  width: 100%; 
-  height: auto; 
-  display: block; 
+
+.Section7 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
+
 .Section7 .content {
-  bottom: 0;  
-  background: rgb(0, 0, 0);  
-  background-color: rgba(0, 0, 0, 0.5);   
-  color: #f1f1f1; 
-  width: 100%; 
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   align-items: center;
-  padding: 30px;
-} 
+  padding: 3vw;
+}
+
 .Section8 {
   position: relative;
-  margin: 0 auto; 
-  max-width: 100%; 
+  margin: 0 auto;
+  max-width: 100%;
   overflow: hidden;
-  background-color: #f1f1f1; 
+  background-color: #f1f1f1;
   align-items: center;
-} 
+  transition: max-height 0.3s ease;
+}
+
+.Section8:hover {
+  max-height: 100%;
+  /* Set max-height to 100% on hover */
+}
 
 .Section8 .content {
   align-items: center;
   padding: 3vw;
-  margin-bottom: 5vw; 
-  background-color: #f1f1f1;  
-} 
+  margin-bottom: 5vw;
+  background-color: #f1f1f1;
+}
+
+.Section8 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .Section8 h1 {
-  text-align:center;
-  margin-bottom: 5vw; 
+  text-align: center;
+  margin-bottom: 5vw;
 }
 
 .Section8 .partners-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5vw, 1fr));
-  gap: 2vw;
-  background-color: #f1f1f1; 
-  justify-content: center; 
+  display: flex;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  gap: 5vw;
+  background-color: #f1f1f1;
+  justify-content: center;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  transition: max-height 0.3s ease;
+
 }
+
+.Section8 .partners-container .partner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Section8 .partners-container .partner:hover {
+  margin-bottom: 2vw;
+  /* Adjust margin for hover effect */
+}
+
+.Section8 .partners-container .partner .tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 999;
+  height: auto;
+  display: block;
+}
+
+
+.Section8 .partners-container .partner:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 2vw;
+}
+
+.Section8 .partners-container .partner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Section8 .partners-container .partner .tooltip p {
+  margin-top: 10px;
+  text-align: center;
+}
+
 .Section8 .partners-container img {
-  max-width: 100%; 
-  height: auto; 
-  display: block; 
+  width: 7vw;
+  height: auto;
+  display: block;
   margin: auto;
+
+}
+
+.Section8 .partners-container2 {
+  display: flex;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 5vw;
+  background-color: #f1f1f1;
+  justify-content: center;
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  transition: max-height 0.3s ease;
+
+}
+
+.Section8 .partners-container2 .partner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Section8 .partners-container2 .partner:hover {
+  margin-bottom: 2vw;
+  /* Adjust margin for hover effect */
+}
+
+.Section8 .partners-container2 .partner .tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 999;
+  height: auto;
+  display: block;
+}
+
+
+.Section8 .partners-container2 .partner:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 2vw;
+}
+
+.Section8 .partners-container2 .partner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Section8 .partners-container2 .partner .tooltip p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Section8 .partners-container2 img {
+  width: 7vw;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.Section8 .content2 {
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  padding: 3vw;
+}
+.Section8 .content2 h1{
+  text-align: left;
+
+  
+}
+
+
+.Contact {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  color: #f1f1f1;
+  background-color: black;
+}
+
+.Contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #f1f1f1;
+}
+
+.Contact .services {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 3vw;
+
+
+
+}
+
+.Contact p {
+  color: #f1f1f1;
+  text-align: center;
+
+}
+
+.Contact .services .card {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  background: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 2vw;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Contact .services .card .content {
+  transition: 0.3s;
+  margin: 20px;
+
+}
+
+.Contact .services .card:hover {
+  background: grey;
+  margin-bottom: 2vw;
+}
+
+.Contact .services .card:hover .content {
+  transform: scale(1.07);
+}
+
+.Contact .services .card:hover .content .title {
+  color: #f1f1f1;
+  text-align: center;
+
+}
+
+.Contact .services .card .content .title {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(209, 205, 205);
+  transition: 0.3s;
+  text-align: center;
+
+}
+
+
+.Contact img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  z-index: 1;
 
 }
