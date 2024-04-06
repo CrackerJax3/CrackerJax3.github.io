@@ -16,7 +16,7 @@ import community from './images/community.png';
 import campaign from './images/consulting.png'
 import hosting from './images/hosting.png'
 import sub from './images/Subotix.png'
-import misk from './images/misk-logo-black.webp'
+import misk from './images/misk.png'
 import turki from './images/alturki.png'
 import brightup from './images/brightup.png'
 import aramco from './images/aramco.png'
@@ -27,7 +27,17 @@ import mcit from './images/mcit.png'
 import makerfaire from './images/makerfaire.png'
 import numou from './images/numou.png'
 import rcu from './images/rcu.png'
-
+import BISDCTE from './images/BISDCTEcombo.png'
+import brownsville from './images/BrownsvilleCity.png'
+import city_assisi from './images/Città_Assisi_Logo.png'
+import ctewletter from './images/ctewletter.png'
+import firstlego from './images/fll-logo-horizontal.png'
+import italianrailway from './images/italianrailway.png'
+import modon from './images/ModonLogo.png'
+import umbria from './images/regione-umbria.png'
+import sharqiya from './images/Sharqiyah.png'
+import techshop from './images/techshop.png'
+import spacex from './images/SpaceX.png'
 
 function App() {
   const [num1, setNum1] = React.useState(27000);
@@ -111,12 +121,11 @@ function App() {
           <img src={hosting} />
           <div class="content">
             <h1>HOSTING TO INSPIRE</h1>
-            <p>Purpose driven community engagements at scale.</p>
+            <p>Hosting students, educators, and individual STEM enthusiast from around the world to inspire and prepare them for the future, through exposure to Maker Culture.</p>
           </div>
         </div>
         <div className="Section6">
           <div class="content">
-
             <section class="services">
               <div class="card">
                 <div class="content">
@@ -175,8 +184,8 @@ function App() {
                     fontStyle={{
                       fontSize: 40,
                       color: "white",
-                      fontWeight: "bold", 
-                      textAlign: "center", 
+                      fontWeight: "bold",
+                      textAlign: "center",
                     }}
                   />
                 </div>
@@ -185,37 +194,200 @@ function App() {
           </div>
         </div>
         <div className="Section7">
-          <img src={image2} />
+          <img src={image3} />
           <div class="content">
             <h1>PRODUCTS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section7">
-          <img src={image3} />
-          <div class="content">
-            <h1>LOCATIONS</h1>
-            <p>MEXICO, ITALY, SAUDI ARABIA</p>
-          </div>
-        </div>
         <div className="Section8">
           <div class="content">
-            <h1>PARTNERS</h1>
+            <h1>COLLABORATIONS & PARTNERS</h1>
             <div class="partners-container">
-              <img src={mcit} alt="mcit" />
-              <img src={rcu} alt="rcu" />
-              <img src={aramco} alt="aramco" />
-              <img src={misk} alt="misk" />
-              <img src={numou} alt="numou" />
-              <img src={sabic} alt="sabic" />
-              <img src={brightup} alt="brightup" />
-              <img src={ithra} alt="ithra" />
-              <img src={turki} alt="turki" />
-              <img src={makerfaire} alt="MakerFaire" />
-              <img src={sipchem} alt="sipchem" />
-              <img src={sub} alt="Subotix" />
+              <div className="partner">
+                <img src={mcit} alt="mcit" />
+                <div className="tooltip">
+                  <img src={mcit} alt="mcit" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={rcu} alt="rcu" />
+                <div className="tooltip">
+                <img src={rcu} alt="rcu" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={aramco} alt="aramco" />
+                <div className="tooltip">
+                <img src={aramco} alt="aramco" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={misk} alt="misk" />
+                <div className="tooltip">
+                <img src={misk} alt="misk" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={numou} alt="numou" />
+                <div className="tooltip">
+                <img src={numou} alt="numou" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={sabic} alt="sabic" />
+                <div className="tooltip">
+                <img src={sabic} alt="sabic" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="partners-container">
+              <div className="partner">
+                <img src={brightup} alt="brightup" />
+                <div className="tooltip">
+                <img src={brightup} alt="brightup" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={ithra} alt="ithra" />
+                <div className="tooltip">
+                <img src={ithra} alt="ithra" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={turki} alt="turki" />
+                <div className="tooltip">
+                <img src={turki} alt="turki" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={makerfaire} alt="MakerFaire" />
+                <div className="tooltip">
+                <img src={makerfaire} alt="MakerFaire" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={sipchem} alt="sipchem" />
+                <div className="tooltip">
+                <img src={sipchem} alt="sipchem" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={sub} alt="Subotix" />
+                <div className="tooltip">
+                <img src={sub} alt="Subotix" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="partners-container">
+              <div className="partner">
+                <img src={BISDCTE} alt="BISDCTE" />
+                <div className="tooltip">
+                <img src={BISDCTE} alt="BISDCTE" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={brownsville} alt="brownsville" />
+                <div className="tooltip">
+                <img src={brownsville} alt="brownsville" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={city_assisi} alt="city_assisi" />
+                <div className="tooltip">
+                <img src={city_assisi} alt="city_assisi" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={ctewletter} alt="ctewletter" />
+                <div className="tooltip">
+                <img src={ctewletter} alt="ctewletter" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={firstlego} alt="firstlego" />
+                <div className="tooltip">
+                <img src={firstlego} alt="firstlego" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={italianrailway} alt="italianrailway" />
+                <div className="tooltip">
+                <img src={italianrailway} alt="italianrailway" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="partners-container2">
+              <div className="partner">
+                <img src={sharqiya} alt="sharqiya" />
+                <div className="tooltip">
+                <img src={sharqiya} alt="sharqiya" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={umbria} alt="umbria" />
+                <div className="tooltip">
+                <img src={umbria} alt="umbria" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
+              <div className="partner">
+                <img src={modon} alt="modon" />
+                <div className="tooltip">
+                <img src={modon} alt="modon" />
+                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                </div>
+              </div>
             </div>
           </div>
+          <img src={image3} />
+          <div class="content2">
+            <h1>LOCATIONS</h1>
+            <p>United States, Italy, Mexico, Saudi Arabia</p>
+          </div>
+        </div>
+        <div className='Contact'>
+          <div className='content'>
+            <h1>CONTACT US</h1>
+            <div className='services'>
+              <div className='card'>
+              <div class="title">Email</div>
+              <p>msxbocachica@info.org</p>
+              </div>
+              <div className='card'>
+              <div class="title">Phone</div>
+              <p>msxbocachica@info.org</p>
+              </div>
+              <div className='card'>
+              <div class="title">X</div>
+              <p>msxbocachica@info.org</p>
+              </div>
+              <div className='card'>
+              <div class="title">Facebook</div>
+              <p>msxbocachica@info.org</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </body>
       <footer className="Footer">
@@ -223,13 +395,10 @@ function App() {
           &copy; 2024 Maker Space Exploration
         </div>
         <div className="social-media">
-          {/* Add your social media links here */}
           <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
           <a href="https://twitter.com/MSXBocaChica">X</a>
           <a href="https://www.youtube.com/@subasio/">Youtube</a>
         </div>
-
-        {/* Add other footer content here */}
       </footer>
     </div>
   );
