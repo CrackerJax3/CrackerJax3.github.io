@@ -38,7 +38,7 @@ function App() {
       <Helmet>
         <title>MSX</title>
         <link rel="canonical" href="http://msxbocachica.org" />
-        <meta name="description" content="21st Century Skill-Stacks for Everyone" />
+        <meta name="MSX Boca Chica or MakerSpace X" content="21st Century Skill-Stacks for Everyone. We are a 501(c)(3) non-profit organization in Brownsville, TX." />
         <link rel="icon" type="image/png" href="/favicon.ico" sizes="16x16" />
       </Helmet>
       <Navbar />
@@ -195,7 +195,7 @@ function App() {
           <img src={image3} />
           <div class="content">
             <h1>LOCATIONS</h1>
-            <p>MEXICO, ITALY, SAUDI ARABIA</p>
+            <p>ITALY, UNITED STATES, SAUDI ARABIA, MEXICO</p>
           </div>
         </div>
         <div className="Section8">
@@ -227,6 +227,7 @@ function App() {
           <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
           <a href="https://twitter.com/MSXBocaChica">X</a>
           <a href="https://www.youtube.com/@subasio/">Youtube</a>
+          <a href="mailto:msx.bocachica@gmail.com">msx.bocachica@gmail.com</a>
         </div>
 
         {/* Add other footer content here */}
