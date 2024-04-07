@@ -175,8 +175,8 @@ function App() {
                     fontStyle={{
                       fontSize: 40,
                       color: "white",
-                      fontWeight: "bold", 
-                      textAlign: "center", 
+                      fontWeight: "bold",
+                      textAlign: "center",
                     }}
                   />
                 </div>
@@ -227,9 +227,10 @@ function App() {
           <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
           <a href="https://twitter.com/MSXBocaChica">X</a>
           <a href="https://www.youtube.com/@subasio/">Youtube</a>
+        </div>
+        <div>
           <a href="mailto:msx.bocachica@gmail.com">msx.bocachica@gmail.com</a>
         </div>
-
         {/* Add other footer content here */}
       </footer>
     </div>

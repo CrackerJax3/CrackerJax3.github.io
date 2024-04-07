@@ -34,8 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    height: 5vw;
+    padding: 0px;
     background-color: #000000;
     color: white;
   }
@@ -94,12 +93,12 @@
     padding: 10px;
   }
 
-  .LogoContainer {
-    flex: 1; /* Use flex to expand and center the logo */
+  /* .LogoContainer {
+    flex: 1; /* Use flex to expand and center the logo 
     display: flex;
-    justify-content: center; /* Center the logo horizontally */
-    align-items: center; /* Center the logo vertically */
-  }
+    justify-content: center; /* Center the logo horizontally 
+    align-items: center; /* Center the logo vertically 
+  } */
   
   .header-button {
     margin-right: 10px;
@@ -117,9 +116,9 @@
 
   .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     background-color: #000000;
     color: white;
   }

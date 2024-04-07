@@ -34,8 +34,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             {/* Navbar for Desktop */}
-
-
+            
             <ul className="desktop-menu">
                 <header className="header">
                     <div className="LogoContainer">
@@ -60,10 +59,13 @@ function Navbar() {
                     <div className="LogoContainer">
                         <img src={logo} alt="Logo" className="Logo" />
                     </div>
-                </header>
+                
                 <button className="dropdown-toggle" onClick={toggleMenu}>
-                    <size><img src={dropbar} className="hamburger-icon" /></size>
+                    <size className="iconcontainer">
+                        <img src={dropbar} className="hamburger-icon" />
+                    </size>
                 </button>
+                </header>
                 {isOpen && (
                     <ul className="dropdown-menu">
                         <li><a onClick={() => scrollToSection('home')}>Home</a></li>
