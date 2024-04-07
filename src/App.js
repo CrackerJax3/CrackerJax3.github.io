@@ -371,19 +371,19 @@ function App() {
             <div className='services'>
               <div className='card'>
               <div class="title">Email</div>
-              <p>msxbocachica@info.org</p>
+              <a href="mailto:msx.bocachica@gmail.com">msx.bocachica@gmail.com</a>
               </div>
               <div className='card'>
               <div class="title">Phone</div>
-              <p>msxbocachica@info.org</p>
+              <a href="tel:+18322735548">+18322735548</a>
               </div>
               <div className='card'>
               <div class="title">X</div>
-              <p>msxbocachica@info.org</p>
+              <a href="https://twitter.com/MSXBocaChica">X</a>
               </div>
               <div className='card'>
               <div class="title">Facebook</div>
-              <p>msxbocachica@info.org</p>
+              <a href="https://www.facebook.com/search/top/?q=msx%20boca%20chica">Facebook</a>
               </div>
             </div>
           </div>
