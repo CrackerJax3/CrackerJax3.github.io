@@ -193,14 +193,14 @@ function App() {
             </section>
           </div>
         </div>
-        <div className="Section7">
+        <div id="products" className="Section7">
           <img src={image3} />
           <div class="content">
             <h1>PRODUCTS</h1>
             <p>Purpose driven community engagements at scale.</p>
           </div>
         </div>
-        <div className="Section8">
+        <div id="collaborations" className="Section8">
           <div class="content">
             <h1>COLLABORATIONS & PARTNERS</h1>
             <div class="partners-container">
@@ -365,7 +365,7 @@ function App() {
             <p>United States, Italy, Mexico, Saudi Arabia</p>
           </div>
         </div>
-        <div className='Contact'>
+        <div id="contact" className='Contact'>
           <div className='content'>
             <h1>CONTACT US</h1>
             <div className='services'>

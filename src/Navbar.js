@@ -42,14 +42,15 @@ function Navbar() {
                         <img src={logo} alt="Logo" className="Logo" />
                     </div>
                     <div className="menudesk">
-                        <li><a onClick={() => scrollToSection('home', 'bottom')}>Home</a></li>
+                    <li><a onClick={() => scrollToSection('home', 'bottom')}>Home</a></li>
                         <li><a onClick={() => scrollToSection('services', 'top')}>Services</a></li>
                         <li><a onClick={() => scrollToSection('community events', 'bottom')}>Community Events</a></li>
                         <li><a onClick={() => scrollToSection('campaigns', 'bottom')}>Campaigns</a></li>
                         <li><a onClick={() => scrollToSection('hosting to inspire', 'bottom')}>Hosting To Inspire</a></li>
-                        <li><a onClick={() => scrollToSection('products', 'bottom')}>Products</a></li>
-                        <li><a onClick={() => scrollToSection('locations', 'bottom')}>Locations</a></li>
-                        <li><a onClick={() => scrollToSection('contact', 'bottom')}>Collaborations</a></li>
+                        <li><a onClick={() => scrollToSection('products')}>Products</a></li>
+                        <li><a onClick={() => scrollToSection('collaborations', 'top')}>Collaborations</a></li>
+                        <li><a onClick={() => scrollToSection('collaborations', 'bottom')}>Locations</a></li>
+                        <li><a onClick={() => scrollToSection('contact', 'top')}>Contact</a></li>
                     </div>
                 </header>
             </ul>
@@ -66,14 +67,15 @@ function Navbar() {
                 </button>
                 {isOpen && (
                     <ul className="dropdown-menu">
-                        <li><a onClick={() => scrollToSection('home')}>Home</a></li>
-                        <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-                        <li><a onClick={() => scrollToSection('community events')}>Community Events</a></li>
-                        <li><a onClick={() => scrollToSection('campaigns')}>Campaigns</a></li>
-                        <li><a onClick={() => scrollToSection('hosting to inspire')}>Hosting To Inspire</a></li>
+                        <li><a onClick={() => scrollToSection('home', 'bottom')}>Home</a></li>
+                        <li><a onClick={() => scrollToSection('services', 'top')}>Services</a></li>
+                        <li><a onClick={() => scrollToSection('community events', 'bottom')}>Community Events</a></li>
+                        <li><a onClick={() => scrollToSection('campaigns', 'bottom')}>Campaigns</a></li>
+                        <li><a onClick={() => scrollToSection('hosting to inspire', 'bottom')}>Hosting To Inspire</a></li>
                         <li><a onClick={() => scrollToSection('products')}>Products</a></li>
-                        <li><a onClick={() => scrollToSection('locations')}>Locations</a></li>
-                        <li><a onClick={() => scrollToSection('contact')}>Collaborations</a></li>
+                        <li><a onClick={() => scrollToSection('collaborations', 'top')}>Collaborations</a></li>
+                        <li><a onClick={() => scrollToSection('collaborations', 'bottom')}>Locations</a></li>
+                        <li><a onClick={() => scrollToSection('contact', 'top')}>Contact</a></li>
                     </ul>
                 )}
             </div>
