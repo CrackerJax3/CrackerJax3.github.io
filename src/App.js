@@ -202,7 +202,7 @@ function App() {
         </div>
         <div id="collaborations" className="Section8">
           <div class="content">
-            <h1>COLLABORATIONS & PARTNERS</h1>
+            <h1>COLLABORATIONS & PARTNERSHIPS</h1>
             <div class="partners-container">
               <div className="partner">
                 <img src={mcit} alt="mcit" />
@@ -379,7 +379,7 @@ function App() {
               </div>
               <div className='card'>
               <div class="title">X</div>
-              <a href="https://twitter.com/MSXBocaChica">X</a>
+              <a href="https://twitter.com/MSXBocaChica">MSXBocaChica</a>
               </div>
               <div className='card'>
               <div class="title">Facebook</div>
