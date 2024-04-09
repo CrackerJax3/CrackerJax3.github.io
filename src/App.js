@@ -66,19 +66,19 @@ function App() {
             <div class="card">
               <div class="content">
                 <div class="title">INITIATIVES</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>Wow and Impactful</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
                 <div class="title">CONSULTING</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>We are unparalleled community builders. High-end design-thinking to solve creativity and organizational problems for our clients in CSR, education and corporate.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
                 <div class="title">COMMUNITY</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>Our core strength and our unique ability to rapidly build vibrant, organic and purpose drive community.</p>
               </div>
             </div>
           </section>
@@ -86,19 +86,19 @@ function App() {
             <div class="card">
               <div class="content">
                 <div class="title">HOSTING</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>We are able to attract the interest of many international individual and organizations.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
                 <div class="title">CAMPAIGNS </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>We initiate, plan and execute unique purpose driven campaigns targeted at specific goals.</p>
               </div>
             </div>
             <div class="card">
               <div class="content">
                 <div class="title">PRODUCTS</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                <p>Our products are created with the mission to be cost effective, simplified and scalable directed at attracting CSR companies genuinely interested in sustainability in order to achieve our mission.</p>
               </div>
             </div>
           </section>
@@ -114,14 +114,14 @@ function App() {
           <img src={campaign} />
           <div class="content">
             <h1>CAMPAIGNS</h1>
-            <p>Purpose driven community engagements at scale.</p>
+            <p>cost effective, purpose driven, result oriented media campaigns</p>
           </div>
         </div>
         <div id="hosting to inspire" className="Section4">
           <img src={hosting} />
           <div class="content">
             <h1>HOSTING TO INSPIRE</h1>
-            <p>Hosting students, educators, and individual STEM enthusiast from around the world to inspire and prepare them for the future, through exposure to Maker Culture.</p>
+            <p>Hosting students, educators, and individual STEM enthusiast from around the world to inspire and prepare them for the future, through exposure to Maker Culture.</p>
           </div>
         </div>
         <div id="" className="Section6">
@@ -197,7 +197,7 @@ function App() {
           <img src={image3} />
           <div class="content">
             <h1>PRODUCTS</h1>
-            <p>Purpose driven community engagements at scale.</p>
+            <p>Cost effective, simple, scalable, CSR</p>
           </div>
         </div>
         <div id="collaborations" className="Section8">
