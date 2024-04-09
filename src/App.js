@@ -114,7 +114,7 @@ function App() {
           <img src={campaign} />
           <div class="content">
             <h1>CAMPAIGNS</h1>
-            <p>cost effective, purpose driven, result oriented media campaigns</p>
+            <p>Cost effective, purpose driven, result oriented media campaigns</p>
           </div>
         </div>
         <div id="hosting to inspire" className="Section4">
@@ -215,35 +215,35 @@ function App() {
                 <img src={rcu} alt="rcu" />
                 <div className="tooltip">
                 <img src={rcu} alt="rcu" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Royal Commission of AlUla</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={aramco} alt="aramco" />
                 <div className="tooltip">
                 <img src={aramco} alt="aramco" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Saudi Aramco</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={misk} alt="misk" />
                 <div className="tooltip">
                 <img src={misk} alt="misk" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>MISK - Prince Mohammed bin Salman bin Abdulaziz Non-Profit Foundation</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={numou} alt="numou" />
                 <div className="tooltip">
                 <img src={numou} alt="numou" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Numou Education Center, AlKhobar, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={sabic} alt="sabic" />
                 <div className="tooltip">
                 <img src={sabic} alt="sabic" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>SABIC - Saudi Basic Industries Corporation</p>
                 </div>
               </div>
             </div>
@@ -252,42 +252,42 @@ function App() {
                 <img src={brightup} alt="brightup" />
                 <div className="tooltip">
                 <img src={brightup} alt="brightup" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>BrightUP, Dhahran, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={ithra} alt="ithra" />
                 <div className="tooltip">
                 <img src={ithra} alt="ithra" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>ITHRA - King Abdulaziz Center for World Culture, Dhahran, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={turki} alt="turki" />
                 <div className="tooltip">
                 <img src={turki} alt="turki" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>AlTurki Holding, Dhahran, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={makerfaire} alt="MakerFaire" />
                 <div className="tooltip">
                 <img src={makerfaire} alt="MakerFaire" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>MakerFaire is an event by Make Community based out of San Francisco, CA held at various location around the world</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={sipchem} alt="sipchem" />
                 <div className="tooltip">
                 <img src={sipchem} alt="sipchem" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Saudi International Petrochemical Company, AlKhobar, Saudi Arabic</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={sub} alt="Subotix" />
                 <div className="tooltip">
                 <img src={sub} alt="Subotix" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Subotix, Brownsville Texas</p>
                 </div>
               </div>
             </div>
@@ -296,42 +296,42 @@ function App() {
                 <img src={BISDCTE} alt="BISDCTE" />
                 <div className="tooltip">
                 <img src={BISDCTE} alt="BISDCTE" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Brownsville Independent School District</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={brownsville} alt="brownsville" />
                 <div className="tooltip">
                 <img src={brownsville} alt="brownsville" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>City of Brownsville, Texas</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={city_assisi} alt="city_assisi" />
                 <div className="tooltip">
                 <img src={city_assisi} alt="city_assisi" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>City of Assisi, Italy</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={ctewletter} alt="ctewletter" />
                 <div className="tooltip">
                 <img src={ctewletter} alt="ctewletter" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Career Technical Education</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={firstlego} alt="firstlego" />
                 <div className="tooltip">
                 <img src={firstlego} alt="firstlego" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>First Lego League</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={italianrailway} alt="italianrailway" />
                 <div className="tooltip">
                 <img src={italianrailway} alt="italianrailway" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Rete Ferroviaria Italiana(Italian Rail Authority)</p>
                 </div>
               </div>
             </div>
@@ -340,21 +340,21 @@ function App() {
                 <img src={sharqiya} alt="sharqiya" />
                 <div className="tooltip">
                 <img src={sharqiya} alt="sharqiya" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Sharqiyah Province, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={umbria} alt="umbria" />
                 <div className="tooltip">
                 <img src={umbria} alt="umbria" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>The region of Umbria, Italy</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={modon} alt="modon" />
                 <div className="tooltip">
                 <img src={modon} alt="modon" />
-                  <p>MCIT - Ministry of Communications and Information Technology</p>
+                  <p>Saudi Authority for Industrial Cities and Technology Zones</p>
                 </div>
               </div>
             </div>
