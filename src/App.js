@@ -273,21 +273,21 @@ function App() {
                 <img src={makerfaire} alt="MakerFaire" />
                 <div className="tooltip">
                 <img src={makerfaire} alt="MakerFaire" />
-                  <p>MakerFaire is an event by Make Community based out of San Francisco, CA held at various location around the world</p>
+                  <p>MakerFaire is an event by Make: Community based out of San Francisco, CA held at various location around the world</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={sipchem} alt="sipchem" />
                 <div className="tooltip">
                 <img src={sipchem} alt="sipchem" />
-                  <p>Saudi International Petrochemical Company, AlKhobar, Saudi Arabic</p>
+                  <p>Saudi International Petrochemical Company, AlKhobar, Saudi Arabia</p>
                 </div>
               </div>
               <div className="partner">
                 <img src={sub} alt="Subotix" />
                 <div className="tooltip">
                 <img src={sub} alt="Subotix" />
-                  <p>Subotix, Brownsville Texas</p>
+                  <p>Subotix, Brownsville, Texas</p>
                 </div>
               </div>
             </div>
